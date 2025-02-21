@@ -1,0 +1,43 @@
+.home{
+    background-image: url(images/dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    position:inherit;
+    min-width: 100px;
+    backface-visibility: visible;
+}
+.title{
+    font-size: 40px;
+    color: #f6faee;
+    text-decoration: underline;
+    text-decoration-color: rgb(230, 235, 230);
+    font-family: 'Times New Roman', Times, serif;
+}
+.content{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    width: 450px;
+    padding-left: 340px;
+    padding-top: 100px;
+    color: hsl(180, 100%, 99%);
+}
+.btn{
+    size: 100px;
+    min-height: 5vh;
+    min-width:90px ;
+    border: 10px;
+    background-color: rgb(13, 162, 189);
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
